@@ -4,8 +4,8 @@ A simple script used for comparing from two joined tables directly from database
 At the start of my manual QA career I was working at a Data team, and at one point of DB development I had perform checks on data population. For which I had written a script, that would get the values from DB, check them, and store their discrepancies into a csv file. It was my first ever program and it took me a lot of time, even though it was quite simple, but it saved me so much more.
 Now i've decided to rewrite it to so it wouldn't take 20 mins to iterate over 300000 rows.
 
-### Old script
-Relied on a shared pre-prod database within copied schema for testing. Can't share the code for NDA reasons.
+### [Old script](https://github.com/Fatalwgx/LevZavodskov/blob/main/SQLscript/main.py)
+Relied on a shared pre-prod database within copied schema for testing. 
 ```json
 Elapsed time 20-30 mins
 ```
